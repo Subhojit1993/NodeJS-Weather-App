@@ -53,3 +53,35 @@ button {
     color: white;
     padding: 8px;
 }
+
+#description p {
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+}
+
+#about-content p {
+    margin-block-start: 6px;
+    margin-block-end: 10px;
+}
+
+div:has(> #weather) {
+    margin: 20px 0;
+    display: flex;
+}
+
+#weather>img {
+    border-radius: 50%;
+}
+
+#weather {
+    display: inline-flex;
+    width: 110px;
+}
+
+div.maximize {
+    width: auto !important;
+}
+
+#description {
+    display: inline-block;
+}
