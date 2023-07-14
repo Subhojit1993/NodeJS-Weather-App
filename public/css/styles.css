@@ -75,7 +75,8 @@ div:has(> #weather) {
 
 #weather {
     display: flex;
-    height: 110px;
+    min-height: 130px;
+    min-width: 130px;
     margin-right: 10px;
 }
 

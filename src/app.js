@@ -71,7 +71,7 @@ app.get('/weather', (req, res) => {
                 });
             }
             res.send({
-                weather_description: `${weather_descriptions}. It is currently ${temperature} degrees out. But it feels like ${feelslike} degress out`,
+                weather_description: `<strong>${weather_descriptions}</strong>. It is currently <strong>${temperature} degrees</strong> out. But it <strong>feels like</strong> ${feelslike} degress out`,
                 location,
                 address: req.query.address,
                 weather_icons,

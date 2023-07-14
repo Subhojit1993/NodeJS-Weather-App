@@ -29,7 +29,8 @@ weatherForm.addEventListener('submit', (e) => {
                     <img src=${data.weather_icons[0]} />
                 ` : null;
                 description.innerHTML = `
-                    <p>Location: ${data.address}</p>
+                    <p><strong>Location</strong>: ${data.address}</p>
+                    <br/>
                     <p>It's ${data.weather_description}!</p>
                     <p>With the Wind Speed being ${data.wind_speed} km / hr,</p>
                     <p>Today, it's ${data.humidity}% humid!</p>
