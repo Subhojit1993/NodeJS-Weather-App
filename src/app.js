@@ -89,7 +89,6 @@ app.get('/products', (req, res) => {
         })
     }
 
-    console.log(req.query);
     res.send({
         products: []
     })
